@@ -1,0 +1,86 @@
+<html>
+<app-nav></app-nav>
+<div class="Step2">
+    <h1 class='text-center'> SHOES PRODUCTS</h1>
+    </div>
+<section class="content sproduct my-5 pt-5">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="../../assets/shoes.jpg" id="MainImg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="../../assets/shoes2.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/shoes3.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/shoes4.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/shoes5.jpg" width="100%" class="small-img" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-12">
+            <h6>Home / Shoes Products </h6>
+            <h3 class="py-4">Exclusive Affordable Collection of Trendy, Formal, Casual & Stylish Sport Sneakers Running Shoes Running Shoes For Men ( BLACK )</h3>
+            <h2>Rs. 700.00</h2>
+            <div class="OP2">
+                Rs.999.00
+            </div>
+            <div class="off1">
+                <span>30% off</span>
+            </div>
+            <select name="my-4">
+            <option>Select Color</option>
+            <option>white</option>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Red</option>
+            </select>
+            <select name="my-2">
+                <option>Select wear</option>
+                <option>Formal</option>
+                <option>Casual</option>
+                </select>
+            <input type="number" value="1">
+            <button class="buy-btn4">Add To Cart</button>
+           <button class="buy-btn5"><a routerLink="/billing3">BUY!!</a></button>
+           <div class="ha">
+            <h4 class="mt-5 mb-5">Product Details</h4>
+           </div>
+            <div class="styles1">
+                <span>
+                    <ul>
+                       <li>Stylist & Trendy Shoes Collections</li>
+                       <li>Available in most colors</li>
+                       <li>New Models & Designs</li>
+                       <li>IN Reasonable Prices</li>
+                       <li>Special Discounts for Specific Bank Credit Cards</li>
+                       <li>Cash Back for Axis Bank Card </li>
+                       <li>Special PriceGet extra 6% off (price inclusive of cashback/coupon)</li>
+                       <li>Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500</li>
+                   </ul>
+                   </span>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script>
+    var MainImg = document.getElementById('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+     
+     smallimg[0].onclick = function() {
+        MainImg.src = smallimg[0].src;
+     }
+     smallimg[1].onclick = function() {
+        MainImg.src = smallimg[2].src;
+     }
+     smallimg[2].onclick = function() {
+        MainImg.src = smallimg[2].src;
+     }
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+.form2
+{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aqua;
+
+}
+.order2
+{
+    background-image: url(../../assets/bill.jpg);
+    background-position: 100px;
+}
+input[type=text], select
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}

@@ -1,0 +1,45 @@
+.container
+{
+    background-image: url(../../assets/bg.jpg);
+    background-size: cover;
+    background-position: 10px;
+
+}
+.container h3
+{
+   text-align: center;
+   font-size: 80px;
+   color: #ED0B70;
+}
+
+.container p
+{
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+}
+.stepbox a:hover
+{
+    color: black;
+    background-color: var(--primary-color);
+    
+}
+.Step h1
+{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+}
+.stepbox
+{
+    background-color: rgb(83, 21, 182);
+    padding: 50px 95px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.stepbox h1
+{
+   font-size: 40px;
+   color: blue;
+}

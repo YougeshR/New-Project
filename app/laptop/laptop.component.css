@@ -1,0 +1,60 @@
+.small-img-group
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col
+{
+    flex-basis: 33%;
+    cursor: pointer;
+}
+.OP
+{
+    text-decoration: line-through;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.sproduct select
+{
+  display: block;
+  padding: 5px 10px;
+}
+
+.sproduct input
+{
+    width: 50px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sproduct input:focus
+{
+  outline: none;
+}
+.buy-btn
+{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: orange;
+    color: purple;
+    font-style: italic;
+
+}
+
+.buy-btn1
+{
+    font:bolder;
+    background-color: orange;
+    color: blue;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.3s all;
+}

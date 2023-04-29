@@ -1,0 +1,18 @@
+
+.banner
+{
+    background-image: url('../../assets/store.jpg');
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1
+{
+  color: aliceblue;
+  font-size: 100px;
+  font-weight: bold;
+  top: 42%;
+  left: 15%;
+  position: absolute;
+}

@@ -1,0 +1,81 @@
+<html>
+<app-nav></app-nav>
+<div class="Step1">
+    <h1 class='text-center'> MOBILES PRODUCTS</h1>
+    </div>
+<section class="content sproduct my-5 pt-5">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="../../assets/apple phone.jpg" id="MainImg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="../../assets/apple p2.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/apple p3.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/apple p4.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../../assets/apple p5.jpg" width="100%" class="small-img" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-12">
+            <h6>Home / Mobiles Products </h6>
+            <h3 class="py-4">APPLE iPhone SE (White, 128 GB)</h3>
+            <h2>Rs. 32,990.00</h2>
+            <div class="OP1">
+                Rs.44,990.00
+            </div>
+            <div class="off">
+                <span>26% off</span>
+            </div>
+            <select name="my-3">
+            <option>Select Color</option>
+            <option>white</option>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Red</option>
+            </select>
+            <input type="number" value="1">
+            <button type="button" class="buy-btn2">Add To Cart</button>
+           <button class="buy-btn3"><a routerLink="/billing2">BUY!!</a></button>
+           <div class="h">
+            <h4 class="mt-5 mb-5">Product Details</h4>
+           </div>
+            <div class="styles">
+                <span>
+                    <ul>
+                       <li>APPLE iPhone SE</li>
+                       <li>128 GB ROM</li>
+                       <li>11.94 cm (4.7 inch) Retina HD Display</li>
+                       <li>12MP Rear Camera | 7MP Front Camera</li>
+                       <li>A13 Bionic Chip with 3rd Gen Neural Engine Processor</li>
+                       <li>Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)</li>
+                       <li>Fast Charge Capable</li>
+                       <li>Wireless charging (Works with Qi Chargers | Qi Chargers are Sold Separately</li>
+                   </ul>
+                   </span>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script>
+    var MainImg = document.getElementById('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+     
+     smallimg[0].onclick = function() {
+        MainImg.src = smallimg[0].src;
+     }
+     smallimg[1].onclick = function() {
+        MainImg.src = smallimg[2].src;
+     }
+     smallimg[2].onclick = function() {
+        MainImg.src = smallimg[2].src;
+     }
+</script>
+
+</html>
